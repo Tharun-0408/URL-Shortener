@@ -5,7 +5,7 @@
 3. For giving dynamic data
  ```java
        @GetMapping("/")
-    public String home(Model model){
+        public String home(Model model){ // Model model is used to give dynamic data
         model.addAttribute("title", "URL Shortener - Tharun");
         return "index";
    ```
